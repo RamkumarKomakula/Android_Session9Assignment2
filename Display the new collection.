@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Collection
+{
+
+	public static void main(String[]args)
+	{
+		HashSet mylist = new HashSet();
+
+        mylist.add("Ram");
+		mylist.add("Kumar");
+		mylist.add("Kumar");
+		mylist.add(23);
+		mylist.add(23);
+		mylist.add(55);
+		mylist.add(true);
+		mylist.add(false);
+		mylist.add("Ram");
+		
+		System.out.println("elements in mylist : " + mylist);
+	}
+}
+
+
+Output:
+        elements in mylist : [Kumar, false, 23, 55, Ram, true]
